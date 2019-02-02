@@ -21,6 +21,7 @@ body {
 
 .block--blue {
   background-color: blue;
+  
 }
 
 .block--green {
@@ -33,4 +34,9 @@ body {
 
 .block--gray {
   background-color: gray;
+}
+
+@keyframes move{
+  0% {position: relative; left: 0vw}
+  100% {position: relative; left: 90vw; }
 }
